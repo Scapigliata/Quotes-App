@@ -1,7 +1,7 @@
 .container {
   background: url("./assets/background.jpg");
   display: flex;
-  background-size: stretch;
+  background-size: cover;
   justify-content: center;
   align-items: center;
   height: 100%;
