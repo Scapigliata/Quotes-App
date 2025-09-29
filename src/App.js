@@ -22,7 +22,7 @@ class App extends React.Component {
       loading: true
     }));
 
-    axios.get('https://favqs.com/api/qotd')
+  axios.get('/api/qotd')
       .then((res) => {
         const { author, body } = res.data.quote;
         this.setState(() => ({

@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "react-spinners": "^0.5.4"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.17.0"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,6 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "https://favqs.com",
   "browserslist": {
     "production": [
       ">0.2%",
